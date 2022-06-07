@@ -4,7 +4,8 @@
 
 - Open Fork
 - Open the File Menu
-- Click "Init New Repository..." ![InitNewRepository](img/ForkInitNew.png)
+- Click "Init New Repository..."
+  - ![InitNewRepository](img/ForkInitNew.png)
 - Now Pick your Unity Project Folder ![UnityProjectFolder](img/ForkSelectProjectFolder.png)
 - Go to [https://raw.githubusercontent.com/github/gitignore/main/Unity.gitignore](https://raw.githubusercontent.com/github/gitignore/main/Unity.gitignore)
 - rightclick on the text and click "Save to" (Ger: "Speichern Unter") ![SaveTo](img/GitIgnoreSaveTo.png)
@@ -19,12 +20,17 @@
 - Add a Commit Description and press "Commit ... Files" ![Commit](img/ForkCommit.png)
 - Now Create an empty Repository on the service you want
 - e.g. GitHub: 
-  - In the Top Right Click on the + and then on "New Repository" ![NewRepo](img/GitHubNewRepo.png)
+  - In the Top Right Click on the + and then on "New Repository"
+    - ![NewRepo](img/GitHubNewRepo.png)
   - then Configure it as empty (No License/Readme/Gitignore) and Click "Create Repository" ![GithubCfg](img/GitHubCreateRepoConf.png)
 - Now that the Empty Repository is Created, Copy the Repository link ![RepoLink](img/GitHubCopyLink.png)
-- Go To Fork, Right Click on Remotes and Click on "Add New Remote" ![NewRemote](img/ForkRemotesAdd.png)
+- Go To Fork, Right Click on Remotes and Click on "Add New Remote"
+  - ![NewRemote](img/ForkRemotesAdd.png)
 - The Link to your repository should now appear in the new Window, just press the "Add New Remote" Button ![AddRemote](img/ForkAddRemote.png)
-- Now there should be a Remote Called Origin in the Remotes list ![Remotes](img/ForkAfterAddRemote.png)
+- Now there should be a Remote Called Origin in the Remotes list
+  - ![Remotes](img/ForkAfterAddRemote.png)
 - Now you can Push your local Repository to the service you chose e.g. GitHub
-  - Press the "Push" Button on top of the Fork Window ![ForkPush](img/ForkPushBtn.png)
-  - in the Push Window, just press Push ![ForkPush](img/ForkPush.png)
+  - Press the "Push" Button on top of the Fork Window
+    - ![ForkPush](img/ForkPushBtn.png)
+  - in the Push Window, just press Push
+    - ![ForkPush](img/ForkPush.png)
