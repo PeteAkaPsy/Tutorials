@@ -1,0 +1,16 @@
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>230</x><y>270</y><w>130</w><h>80</h></coordinates><panel_attributes>Car:Ferrari
+--
+-color:red
+-manufacturer:Ferrari
+--
+-Drive()</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>120</x><y>130</y><w>90</w><h>80</h></coordinates><panel_attributes>Car
+--
+-color
+-manufacturer
+--
+-Drive()</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>110</x><y>270</y><w>110</w><h>80</h></coordinates><panel_attributes>Car:VW
+--
+-color:black
+-manufacturer:Vw
+--
+-Drive()</panel_attributes><additional_attributes></additional_attributes></element></diagram>
