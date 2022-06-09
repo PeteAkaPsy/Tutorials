@@ -52,7 +52,7 @@ TODO
 ### Starting with C# / Hello World!
 #### Creating a new Project
 - Open Visual Studio
-- Click File -> New Project
+- Click File -> New -> Project
   - ![NewProject1](imgCS/CS-CreateProject1.png)
 - on the left side
   - open Installed
