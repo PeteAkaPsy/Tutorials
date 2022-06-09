@@ -46,6 +46,42 @@ from that class we now create 2 instances to have 2 Objects based on Car, but no
 
 if this was not enough to understand, please Read further, as it gets more clear in understanding by actual Programming examples
 
+### Installing Visual Studio
+TODO
+
 ### Starting with C# / Hello World!
+#### Creating a new Project
+- Open Visual Studio
+- Click File -> New Project
+  - ![NewProject1](imgCS/CS-CreateProject1.png)
+- on the left side
+  - open Installed
+  - open Visual C#
+  - select "Get Started"
+- in the center you should see "Console App","Desktop App" and "Mobile App"
+- select "Console App"
+- On the Bottom:
+  - Change the Location to a Path where the Project should be saved
+  - Change the Name and Solution name to "HelloWorld"
+- Press the "Ok" Button to create the Project
+  - ![NewProject2](imgCS/CS-CreateProject2.png)
 
+#### Writing the Code
 
+```cs
+using System;
+
+namespace HelloWorld
+{
+	class Program
+	{
+		static void Main(string[] args)
+		{
+			// The code provided will print ‘Hello World’ to the console.
+			// Press F5 (or Start) to run your app.
+			Console.WriteLine("Hello World!");
+			Console.ReadKey();
+		}
+	}
+}
+```
